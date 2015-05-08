@@ -26,6 +26,7 @@ int main(){
     int *ptr = &arvo; 
 
     /* There might overwrite to another value, ??? */
+    printf("==== pointer and pointer address exercise ==== \n");   
     printf("Address of value[10]: %x\n",(unsigned int)&values[10]);   
     printf("Address of arvo: %x\n",(unsigned int)&arvo);   
     values[11] = 2; 
